@@ -1,0 +1,46 @@
+p {
+  font-family: Arial;
+
+ 
+}
+
+.email  {
+  color: gray;
+  margin-left: 500px; 
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.email-searchbar {
+  margin-top: 0;
+  padding-right: 350px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: left;
+
+
+
+
+}
+
+.agree-join {
+  color: gray;
+  font-size: 20px; 
+  text-align: center;
+}
+
+.agree-button {
+color: white;
+background-color: rgb(66, 66, 237);
+padding: 13px 200px;
+margin: 0 auto;
+display: block;
+border-radius: 15px;
+border: none;
+font-size: 20px;
+
+}

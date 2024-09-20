@@ -1,0 +1,49 @@
+<style>
+.stretch-button {
+  background-color: #087404;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+
+
+}
+
+.stretch-button:hover {
+    transform: scale(1.3);
+  }
+
+
+  .shadow-button-3d {
+    background-color: #087404; /* Adjusted to match your green color */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px; /* Increased font size to match the image */
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s; /* Shorter transition time for a snappier effect */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Softer and more realistic shadow */
+    margin-left: 10px;
+}
+
+.shadow-button-3d:active {
+    transform: translateY(2px); /* Slight downward movement */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* Reduced shadow on press */
+}
+
+
+
+</style>
+
+<button class="stretch-button">
+  Stretch
+</button>
+
+
+<button class="shadow-button-3d">
+  Shadow
+</button>
